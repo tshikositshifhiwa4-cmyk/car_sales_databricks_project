@@ -134,22 +134,22 @@ flowchart TD
 ```bash
 car_sales_databricks_project/
 │
-├── data/
-│   └── raw_car_sales_data.csv
-│
 ├── bronze/
-│   └── raw_ingestion_notebook.ipynb
+│   ├── Car Sales Data Cleaning - Bronze Layer.ipynb
+│   └── car_sales_data.csv
 │
 ├── silver/
-│   ├── data_cleaning_validation.ipynb
-│   └── transformation_standardization.ipynb
+│   ├── Vehicle Sales Star Schema.ipynb
+│   ├── bronze to silver transformsion.ipynb
+│   ├── data_cleaning.sql
+│   └── car_sales_star_schema.png
 │
 ├── gold/
-│   ├── star_schema_modeling.ipynb
-│   └── analytics_queries.ipynb
+│   ├── Car Sales Analytical View - Gold Layer.ipynb
+│   └── Car Sales Business Analysis 30 Questions.ipynb
 │
-├── diagrams/
-│   └── car_sales_star_schema.png
+├── docs/
+│   └── Car Sales Project Plan & Strategy.ipynb
 │
 └── README.md
 ```
