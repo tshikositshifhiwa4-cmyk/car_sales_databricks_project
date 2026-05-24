@@ -267,6 +267,9 @@ This project demonstrates:
 
 ✔ Business Reporting Integration
 
+<img width="1250" height="694" alt="pipeline" src="https://github.com/user-attachments/assets/349cba4c-d64a-4f42-aec3-3b00d92605e7" />
+
+
 ---
 
 # Future Enhancements
